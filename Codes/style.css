@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Raleway:wght@100&family=ZCOOL+QingKe+HuangYou&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@ body{
     position: relative;
     padding: 20px 60px;
     background: #333;
+    box-shadow: 0px 0px 25px black;
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
@@ -21,6 +24,9 @@ body{
 
 .btn span{
     z-index: 1;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 .btn::before{
@@ -31,7 +37,7 @@ body{
     transform: translate(-50%, -50%);
     width: 0;
     height: 0;
-    background: rgb(191, 212, 0);
+    background: rgb(16, 0, 161);
     border-radius: 50%;
     transition: width .5s, height .5s ;
 }
