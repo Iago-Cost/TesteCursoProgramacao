@@ -18,7 +18,6 @@ img {
 /* Header */
 
 .header {
-  position: fixed;
   top: 0;
   width: 100%;
   background: #223759;
@@ -71,18 +70,17 @@ img {
   height: 480px;
   background: url('../img/fundo-intro.png') no-repeat center;
   background-size: cover;
-  margin-top: 110px;
   padding-top: 80px;
 }
 
 .text-intro {
-  width: auto;/* Largura automatica */
-  height: 360px;/* Altura */ 
-  padding: 0 10px;/* Centralizando a tag p */
-  background: rgba(103, 125, 160, 0.75);/* Cor do background dos texto */ 
-  border-radius: 10px;/* Arredondamento das bordas*/
-  box-shadow: 1px 1px 4px #223759;/* Sombreado */
-  text-align: center;/* Centralizar o texto da tag P */
+  width: auto;
+  height: 360px;
+  padding: 0 10px;
+  background: rgba(103, 125, 160, 0.75);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #223759;
+  text-align: center;
 }
 
 .text-intro h2 {
@@ -118,39 +116,64 @@ img {
   border-radius: 10px;
 }
 
-/* introduçao */
-
-.informativo {
+.sessao-branca {
   width: 100%;
   background: #f2f2f2;
-  text-align: center; /* Alinhar texto ao centro */
-  padding: 60px 0; /* distanciamento da introdução */
+  text-align: center;
+  padding: 60px 0;
 }
 
-.informativo .subtitulo {
+.sessao-branca .subtitulo {
   color: #223759;
   font-weight: bold;
   font-size: 36px;
   line-height: 40px;
 }
 
-.informativo_lista li {
+.sessao-branca_lista li {
   width: 100%;
   height: auto;
   margin: 30px auto;
 }
 
-.informativo_lista li img {
+.sessao-branca_lista li img {
   margin: 0 auto;
+  width: 820px;
+  height: 360px;
+  object-fit: cover;
+  object-position: 0px -650px;
   box-shadow: 1px 1px 4px #cccccc;
+}
+
+.sessao-azul {
+  width: 820px;
+  height: 360px;
+  background: #223759;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.sessao-azul .subtitulo {
+  color: #ecc601;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.sessao-azul_lista li {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.sessao-azul_lista li img {
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #4c648c;
 }
 
 .hide {
   display: none;
 }
-
-/* eventos */ 
-
 
 /* footer */
 .footer {
